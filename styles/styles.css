@@ -151,6 +151,7 @@ body {
 
 .sectionNosotros .sectionNosotros-title {
   font-size: 35px;
+  padding-bottom: 30px;
 }
 
 .sectionNosotros .sectionNosotros-description {
@@ -158,8 +159,54 @@ body {
 }
 
 .sectionNosotrosContainer {
-  padding: 30px 0;
+  padding: 50px 0;
 }
+
+/*Sección Reseñas-Card*/
+.sectionReview {
+  background-color: white;
+  padding: 50px 0;
+}
+
+
+
+.sectionReview-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+.sectionReview-grid-container> article {
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 5px;
+}
+
+.sectionReview .sectionReview-title {
+  font-size: 40px;
+  margin-bottom: 50px;
+  
+}
+
+.cardReview .cardReview-Title {
+  font-size: 20px;
+  color: white;
+}
+
+.cardReview .cardReview-description {
+  font-size: 15px;
+  color: white;
+}
+
+.cardReview .cardReview-picture {
+  max-width: 200px;
+  width: 100%;
+
+}
+
+
 
 
 /*Sección Footer*/
